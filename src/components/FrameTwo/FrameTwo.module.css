@@ -1,0 +1,48 @@
+.root {
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+.cardbody {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 25px;
+  font-family: 'Teko', sans-serif !important;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 39px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #c7451c;
+  color: #fff;
+  outline: none;
+  border: 0px;
+  border-radius: 37px;
+  font-family: 'Teko', sans-serif !important;
+}
+.timeleft {
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.timeicon {
+  position: relative;
+  bottom: 3px;
+}
+.admission {
+  margin-left: 22px;
+  font-family: 'Teko', sans-serif !important;
+}
+.time {
+  margin-left: 22px;
+  font-family: 'Teko', sans-serif !important;
+}

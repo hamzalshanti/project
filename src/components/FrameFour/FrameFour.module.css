@@ -1,0 +1,77 @@
+.root {
+}
+
+.active {
+  background: linear-gradient(180deg, #a0301f 27.08%, #580228 100%);
+  color: #fff;
+}
+
+.unactive {
+  background: linear-gradient(180deg, #f4f4f4 27.08%, #c4c4c4 100%);
+}
+
+.structContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.structure {
+  font-size: 30px;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  padding-right: 20px;
+}
+
+.structureBold {
+  font-weight: 800;
+}
+.bar {
+  position: absolute;
+  height: 1px;
+  background-color: #000;
+  width: 100%;
+  top: 50%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.detailsTitle {
+  text-align: left;
+}
+
+.tech {
+  padding: 3px 20px 3px 5px;
+  background: #ebb100;
+  position: relative;
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.tech:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 100%;
+  top: 0;
+  border: 50px solid transparent;
+  border-left: 50px solid #ebb100;
+}
+
+.techItems {
+  text-align: left;
+}
+
+.coursename {
+  margin-left: 80px;
+  font-size: 32px;
+  font-weight: 800;
+}
