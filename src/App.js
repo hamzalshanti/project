@@ -1,10 +1,10 @@
 import FrameFour from './components/FrameFour/FrameFour';
-// /import FrameTwo from './components/FrameTwo/FrameTwo';
+import FrameTwo from './components/FrameTwo/FrameTwo';
 
 function App() {
   return (
     <div className='container'>
-      <FrameFour />
+      <FrameTwo />
     </div>
   );
 }
